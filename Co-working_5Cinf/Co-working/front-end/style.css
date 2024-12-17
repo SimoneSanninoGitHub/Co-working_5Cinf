@@ -1,0 +1,139 @@
+/* Imposta un bianco uniforme per tutto il corpo */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; /* Bianco puro per tutto il sito */
+  }
+  
+  /* Il contenuto principale occupa tutto lo spazio disponibile */
+  main {
+    flex: 1;
+  }
+  
+  /* Footer in basso con la fascia nera */
+  footer {
+    background-color: #2e2e2e; /* Fascia nera per il footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: linear-gradient(90deg, #6c63ff, #a066ff); /* Gradiente tra viola */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: rgb(223, 223, 223);
+  }
+
+  
+  .navbar .btn {
+    background-color: #ffffff;
+    color: #6c63ff;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #7b56ac;
+    color: rgb(189, 189, 189);
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    background-color: #935fe7; /* Colore di sfondo per la sezione Hero */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Overlay scuro per migliorare la leggibilità del testo */
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Overlay semi-trasparente */
+    z-index: -1; /* Posiziona l'overlay sotto il contenuto */
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombra per migliorare la leggibilità */
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Ombra per migliorare la leggibilità */
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: white;
+    color: #6c63ff;
+  }
+  
+  /* Sezione Spazi - Sfondo bianco */
+  #spaces {
+    background-color: #ffffff; /* Bianco uniforme */
+  }
+  
+  #spaces h2 {
+    font-weight: 600;
+    color: #6c63ff; /* Colore del testo */
+  }
+  
+  /* Stile per le card */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Effetto hover per le card */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #6c63ff;
+  }
+
+  .card-img-top {
+    height: 260px; /* Imposta l'altezza desiderata */
+    object-fit: cover; /* Mantiene il contenuto proporzionato all'interno dello spazio */
+}
+
+  
