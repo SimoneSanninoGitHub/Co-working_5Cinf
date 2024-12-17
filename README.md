@@ -1,4 +1,5 @@
 # Co-working_5Cinf
+CIAOOOOOOOO
 Gruppo composto da: Sannino, Castellani, Striano, Noto, Arzaga, Pandolfi.
 
 Coworking Finder è un'applicazione web progettata per semplificare la ricerca e la gestione degli spazi di coworking.
